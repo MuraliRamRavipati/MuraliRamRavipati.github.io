@@ -4,12 +4,20 @@ body{
 }
 
 a:hover{
-    background-color: cyan;
+    background-color: yellow;
 }
 
-/* a:link, a:visited, a:active{
-    color: black;
-} */
+a:link{
+    color: gray;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:active {
+    color: blue;
+} 
 
 .image {
     height: 240px;;
@@ -21,19 +29,22 @@ a:hover{
 }
 
 #name{
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
-    /* color: #12EAA4; */
     margin: 0px;
     padding: 20px;
 }
 
 .gsucs{
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
-    /* color: #12EAA4; */
     margin: 0px;
     padding-bottom: 20px;
+}
+
+.gs, .cs, .cw, .hw{
+    color: red;
+    font-weight: bold;
 }
 
 #wpcourse {
@@ -44,14 +55,12 @@ a:hover{
 }
 
 .tablename{ 
-    /* color: red; */
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #tableheader{
     background-color: black;
     color: white;
-    /* color: firebrick; */
 }
 
 .whiterow{
@@ -62,11 +71,7 @@ a:hover{
     background-color: gray; 
 }
 
-.hobbies{
-    font-size: 25px;
-}
-
-#education{
+.hobbies, #education, .quoteheader{
     font-size: 25px;
 }
 
@@ -82,10 +87,6 @@ a:hover{
 
 .listnum{
     font-size: 20px;
-}
-
-.quoteheader{
-    font-size: 25px;
 }
 
 .quote{
