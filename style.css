@@ -1,6 +1,17 @@
+body{
+    font-family: sans-serif;
+    background-image: url("background.jpg");
+}
 
+a:hover{
+    background-color: cyan;
+}
 
-.profile {
+/* a:link, a:visited, a:active{
+    color: black;
+} */
+
+.image {
     height: 240px;;
     width: 240px;
     display: block;
@@ -12,7 +23,7 @@
 #name{
     font-size: 50px;
     text-align: center;
-    color: #A517EA;
+    /* color: #12EAA4; */
     margin: 0px;
     padding: 20px;
 }
@@ -20,42 +31,75 @@
 .gsucs{
     font-size: 30px;
     text-align: center;
-    color: #A517EA;
+    /* color: #12EAA4; */
     margin: 0px;
     padding-bottom: 20px;
 }
 
-table#t{
-    height: 100px;
-    text-align : left;
-}
-
-table#t,th{
+#wpcourse {
+    width: 100%;
+    margin: auto;
+    border-spacing: 0px;
     text-align : center;
 }
 
-#t {
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    border-spacing: 0px;
-}
-
-.frow{
-    background-color: #FFFFFF ;
-    color: cadetblue;
-}
-
-.srow{
-    background-color :#B4B4B2 
-}
-
-#theader{
-    background-color :#12EAA4;
-    color: #A52A2A;
-}
-
-.SubName{
-    color: firebrick;
+.tablename{ 
+    /* color: red; */
     font-size: 30px;
+}
+
+#tableheader{
+    background-color: black;
+    color: white;
+    /* color: firebrick; */
+}
+
+.whiterow{
+    background-color: white;
+}
+
+.blackrow{
+    background-color: gray; 
+}
+
+.hobbies{
+    font-size: 25px;
+}
+
+#education{
+    font-size: 25px;
+}
+
+#experience{
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.listdisc{
+    list-style-type:disc;
+    font-size: 20px;
+}
+
+.listnum{
+    font-size: 20px;
+}
+
+.quoteheader{
+    font-size: 25px;
+}
+
+.quote{
+    font-size: 20px;
+    padding-inline-start: 40px;
+}
+
+.sitesheading{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.listsites{
+    list-style-type:disc;
+    font-size: 20px;
+    margin-top: 5px;
 }
