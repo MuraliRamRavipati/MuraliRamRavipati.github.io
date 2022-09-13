@@ -8,16 +8,12 @@ a:hover{
 }
 
 a:link{
-    color: gray;
+    color: blue;
 }
 
 a:visited {
     color: brown;
 }
-
-a:active {
-    color: blue;
-} 
 
 .image {
     height: 240px;;
