@@ -1,0 +1,61 @@
+
+
+.profile {
+    height: 240px;;
+    width: 240px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 50%;
+}
+
+#name{
+    font-size: 50px;
+    text-align: center;
+    color: #A517EA;
+    margin: 0px;
+    padding: 20px;
+}
+
+.gsucs{
+    font-size: 30px;
+    text-align: center;
+    color: #A517EA;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+table#t{
+    height: 100px;
+    text-align : left;
+}
+
+table#t,th{
+    text-align : center;
+}
+
+#t {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+}
+
+.frow{
+    background-color: #FFFFFF ;
+    color: cadetblue;
+}
+
+.srow{
+    background-color :#B4B4B2 
+}
+
+#theader{
+    background-color :#12EAA4;
+    color: #A52A2A;
+}
+
+.SubName{
+    color: firebrick;
+    font-size: 30px;
+}
